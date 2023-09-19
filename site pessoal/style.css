@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b84283;
+    color: #fff; /* Corrigido */
+    text-align: center;
+    padding: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Corrigido */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+section {
+    padding: 20px;
+}
+
+#curiosidades {
+    background-color: white;
+    padding: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #b84283;
+    color: white;
+}
+
+#habilidades {
+    padding: 20px;
+    background-color: #F0F0F0;
+}
+
+footer {
+    background-color: #b84283;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
