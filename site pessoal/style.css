@@ -2,18 +2,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #b84283;
-    color: #fff; /* Corrigido */
+    height: 50vh;
+    color: #fff;
     text-align: center;
-    padding: 7px;
+    padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 nav ul li {
@@ -23,7 +25,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff; /* Corrigido */
+    color: rgb(80, 0, 228); 
 }
 
 nav a:hover {
@@ -35,7 +37,7 @@ figure {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 section {
@@ -43,13 +45,31 @@ section {
 }
 
 #curiosidades {
-    background-color: white;
-    padding: 1px;
+    background-color: rgb(189, 144, 159);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.curiosidade {
+    flex-basis: calc(50% - 30px);
+    margin: 100px;
+    text-align: center;
+}
+
+.curiosidade img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 30%;
 }
 
 table, th, td {
