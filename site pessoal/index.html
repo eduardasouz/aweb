@@ -1,86 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Eduarda souza</title>
-    </head>
-    
-    <body>
-        <header>
-            <nav>
-                <p><a href="#curiosidades">Curiosidades</a> | <a href="#escolar">Histórico Escolar</a> | <a href="#habilidades">Habilidades</a> | <a href="#contato">Contato</a></p>
-            </nav>
-            <figure>
-              <img src="fotos/WhatsApp Image 2023-06-17 at 14.58.29 (3).jpeg" width="200" height="250">
-            </figure>
-            <h1>Quem sou eu?</h1>
-        </header>
-    
-        <main>
-            <section>
-                <article>
-                    <p>Me chamo Maria Eduarda, gosto mais quando me chamam de duda, nasci no dia 14 de novembro de 2005 (17 anos), moro em Taipu/RN.</p>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Eduarda Souza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#escolar">Histórico Escolar</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Maria Eduarda Souza</h1>
+            <img src="fotos/WhatsApp Image 2023-06-17 at 14.58.29 (3).jpeg" alt="Foto de Maria Eduarda" width="200" height="250">
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <h2>Quem sou eu?</h2>
+            <p>Me chamo Maria Eduarda, gosto mais quando me chamam de Duda, nasci no dia 14 de novembro de 2005 (17 anos), moro em Taipu/RN.</p>
             <p>Sou acadêmica em Informática no <a href="https://portal.ifrn.edu.br/" target="_blank">IFRN</a></p>
-            <p>Além de estudar, gosto muito de ler, principalmente livros de romances,sou apaixonada por futebol então assisto muito e gosto de passar mais momentos com a família</p>
-            <p>Sou muito tímida(muito mesmo),passo a maioria do tempo rindo(sou alegre sim), as vezes me acham chata por ser tímida mais sou gente boa com todo mundo,eu sou estressada de vez em quando,me considere antissocial(é mais pela timidez mesmo).</p>
-            <p>Quero cursa medicina ou direito.</p>
-                </article>
-            </section>
-        </main>
+            <p>Além de estudar, gosto muito de ler, principalmente livros de romances, sou apaixonada por futebol então assisto muito e gosto de passar mais momentos com a família</p>
+            <p>Sou muito tímida (muito mesmo), passo a maioria do tempo rindo (sou alegre sim), às vezes me acham chata por ser tímida, mas sou gente boa com todo mundo, sou estressada de vez em quando, me considero antissocial (é mais pela timidez mesmo).</p>
+            <p>Quero cursar medicina ou direito.</p>
+        </section>
 
         <section id="curiosidades">
             <h2>5 curiosidades sobre mim:</h2>
-            <ol>
-                <li>Não gosto de café</li>
-                <li>Ocorreu um erro quando nasci e minha cavicula foi quebrada(ja começou bem)</li>
-                <li>Minha matéria preferida é português</li>
-                <li>Não gosto muito de musica</li>
-                <li>Eu sou completamenta apaixoda por cachorros</li>
-            </ol>
-        </section> 
+            <div class="curiosidade-card">
+                <img src="imagem1.jpg" alt="Curiosidade 1">
+                <p>Não gosto de café</p>
+            </div>
+            <div class="curiosidade-card">
+                <img src="imagem2.jpg" alt="Curiosidade 2">
+                <p>Ocorreu um erro quando nasci e minha clavícula foi quebrada (já começou bem)</p>
+            </div>
+            <div class="curiosidade-card">
+                <img src="imagem3.jpg" alt="Curiosidade 3">
+                <p>Minha matéria preferida é português</p>
+            </div>
+            <div class="curiosidade-card">
+                <img src="imagem4.jpg" alt="Curiosidade 4">
+                <p>Não gosto muito de música</p>
+            </div>
+            <div class="curiosidade-card">
+                <img src="imagem5.jpg" alt="Curiosidade 5">
+                <p>Eu sou completamente apaixonada por cachorros</p>
+            </div>
+        </section>
 
-       <section id="escolar">
-        <table>
-            <thead>
-                <tr>
-                    <th><h2>Meu histórico Escolar:</h2></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2008</td>
-                    <td>Joaquim pedro</td>
-                </tr>
-                <tr>
-                    <td>2013</td>
-                    <td>E. M. Geraldo líns de oliveira</td>
-                </tr>
-                <tr>
-                    <td>2016</td>
-                    <td>E. M. Geraldo líns de oliveira</td>
-                </tr>
-                <tr>
-                    <td>2017</td>
-                    <td>E. M. Geraldo líns de oliveira</td>
-                </tr>
-                <tr>
-                    <td>2021</td>
-                    <td>IFRN - CM</td>
-                </tr>
-            </tbody>
-        </table>
-       </section>
+        <section id="escolar">
+            <h2>Meu histórico Escolar:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ano</th>
+                        <th>Escola</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2008</td>
+                        <td>Joaquim Pedro</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>E. M. Geraldo Lins de Oliveira</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>E. M. Geraldo Lins de Oliveira</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>E. M. Geraldo Lins de Oliveira</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>IFRN - CM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-       <section id="habilidades">
-        <h2>Minhas Habilidades:</h2>
-        <p>Sou persistente, rápida, sou corajosa(adoro uma aventura) e claro sou palmeirense(minha melhor habilidade)</p>
-       </section>
+        <section id="habilidades">
+            <h2>Minhas Habilidades:</h2>
+            <p>Sou persistente, rápida, sou corajosa (adoro uma aventura) e claro sou palmeirense (minha melhor habilidade)</p>
+        </section>
+    </main>
 
-        <footer id="contato">
-            <h2>Contato:</h2>
-            <p>Email Pessoal: <a href=".">edurdasouz75@gmail.com</a></p>
-            <p>Email Acadêmico: <a href=".">souza.eduarda2@escolar.ifrn.edu.br</a></p>
-            <p><a href="https://instagram.com/___meduarda___?igshid=NGExMmI2YTkyZg==" target="_blank">Instagram</a> | <a hr href="https://github.com/eduardasouz" target="_blank">GitHub</a></p>
-        </footer>  
-
-    </body>
+    <footer id="contato">
+        <h2>Contato:</h2>
+        <p>Email Pessoal: <a href="email:eduardasouz75@gmail.com">eduardasouz75@gmail.com</a></p>
+        <p>Email Acadêmico: <a href="email:souza.eduarda2@escolar.ifrn.edu.br">souza.eduarda2@escolar.ifrn.edu.br</a></p>
+        <p><a href="https://instagram.com/___meduarda___?igshid=NGExMmI2YTkyZg==" target="_blank">Instagram</a> | <a href="https://github.com/eduardasouz" target="_blank">GitHub</a></p>
+    </footer>
+</body>
 </html>
