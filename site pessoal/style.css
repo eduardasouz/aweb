@@ -46,7 +46,7 @@ section {
 
 #curiosidades {
     background-color: rgb(189, 144, 159);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     margin: 10px;
     display: flex;
@@ -56,15 +56,15 @@ section {
 
 .curiosidade {
     flex-basis: calc(50% - 30px);
-    margin: 100px;
-    text-align: center;
+    margin: 10px;
+    text-align: center
 }
 
 .curiosidade img {
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 10 auto;
     display: flex;
 }
 
