@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #b84283;
-    height: 50vh;
+    height: 20vh;
     color: white;
     text-align: center;
     padding: 10px;
@@ -31,13 +31,13 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
 figure {
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
     font-size: 20px;
+    text-align: left;
 }
 
 section {
@@ -45,7 +45,6 @@ section {
 }
 
 #curiosidades {
-    background-color: rgb(189, 144, 159);
     padding: 10px;
     text-align: center;
     margin: 10px;
@@ -57,15 +56,17 @@ section {
 .curiosidade {
     flex-basis: calc(50% - 30px);
     margin: 10px;
-    text-align: center
+    text-align: center;
 }
 
-.curiosidade img {
-    max-width: 20%;
+.container .curiosidades img {
+    max-width: 10%;
+    flex-direction: row;
+    align-items: center;
     height: auto;
-    display: block;
-    margin: 10 auto;
-    display: flex;
+    margin: 10px;
+    display: inline;
+    align-items: center;
 }
 
 table {
