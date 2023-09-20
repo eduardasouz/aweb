@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #861553;
-    height: 44vh;
+    height: 47vh;
     color: white;
     text-align: center;
     padding: 10px;
@@ -54,9 +54,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.curiosidade imag{
-    color: rgb(145, 30, 30);
-}
+
 .curiosidade {
     flex-basis: calc(50% - 30px);
     margin: 10px;
